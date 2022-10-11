@@ -134,6 +134,35 @@ h2{
 }
 
 
+/* Estilado de pag risotto de remolacha */
+.risotto-remolacha{
+    font-size: 20px;
+    color: #F8ECD1;
+}
+
+.risotto-remolacha h2{
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#foto-risotto{
+    display: flex;
+    margin: 0 auto 30px;
+    width: 500px;
+    box-shadow: 0 4px 8px #42032C;
+}
+
+#foto-risotto img{
+    width: 100%;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+}
+
+
 /* Estilado pag. sobre nosotros */
 .sobremi{
     display: flex;
