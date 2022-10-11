@@ -94,6 +94,83 @@ h2{
     border-radius: 16px;
 }
 
+/* Estilado pag contacto */
+.conteiner-formulario{
+    font-size: 24px;
+    display: grid;
+    grid-template-areas:
+    "caja1 caja1 caja1"
+    "caja2 caja2 caja3"
+    "caja2 caja2 caja3" 
+    ;
+}
+
+.contactame{
+    color: #F8ECD1;
+    grid-area: caja1;
+}
+
+.formulario form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+    border: 1px solid #42032C;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: 0px;
+    grid-area: caja2;
+}
+
+.formulario form textarea{
+    width: 100%;
+    min-height: 150px;
+    max-height: 160px;
+}
+
+.formulario .btn-enviar{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: 0;
+    background-color: #F8ECD1;
+    color: #85586F;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border-radius: 24px;
+}
+
+.formulario .btn-enviar:hover{
+    background-color: #85586F;
+    color: #F8ECD1;
+}
+
+
+.datos{
+    grid-area: caja3;
+}
+
+.datos ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+.datos li{
+    padding: 5px 0px;
+}
+
+.datos a{
+    color: #F8ECD1;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.datos i{
+    margin-left: 10px;
+}
+
 
 /* Estilado de mi footer */
 footer{
