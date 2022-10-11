@@ -20,7 +20,81 @@
     <title>Sobre nosotros - Foods JS</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md py-0 px-3 animate__animated animate__fadeInDown">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Recetas</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="recetas-saladas.html">Recetas saladas</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="recetas-dulces.html">Recetas Dulces</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </nav>
     
+    <!-- Info sobre mi -->
+    <main>
+        <h1>Quien es Jonathan</h1>
+        
+        <div class="sobremi">
+            <img src="../img/retrato.jpg" alt="fotoretrato" width="400px" height="550px">
+            <div>
+                <h2>Hola!</h2>
+                <p>Si estás leyendo esto es porque seguramente querés   conocerme y saber un poco más de mi, así que acá vamos...</p>
+                <p>Mi nombre es Jonathan Ariel Solano, de profesión cocinero, sin embargo lo que mas me apasiona es la pasteleria. Comencé en el mundo de la gastronomia hace ya 4 años y senti la necesidad de compartir con ustedes mis conocimientos.</p>
+                <p>En este blog verán todas las recetas que aprendi en mis años trabajando en la cocina, algunas faciles y otras no tanto, dulces y saladas.</p>
+                <p>Espero que todo lo que puedan encontrar en JS Foods les guste y disfruten tanto como yo.</p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="animate__animated animate__fadeInUp">
+        <span>(C) 2022 - JS FOODS ALL RIGHTS RESERVED.</span>
+        <img src="../img/logo-icono.png" alt="">
+        <div>
+            <a href="https://www.twitter.com/" target="_blank">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <i class="bi bi-tiktok"></i>
+            </a>
+        </div>
+    </footer>
 
     <!-- Link JS boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

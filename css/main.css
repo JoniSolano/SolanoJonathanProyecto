@@ -94,6 +94,27 @@ h2{
     border-radius: 16px;
 }
 
+
+/* Estilado pag sobre nosotros */
+.sobremi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sobremi div{
+    color: #F8ECD1;
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.sobremi h2{
+    text-align: left;
+    padding: 10px 0;
+}
+
+
 /* Estilado pag contacto */
 .conteiner-formulario{
     font-size: 24px;
