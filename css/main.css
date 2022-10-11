@@ -1,0 +1,130 @@
+/* Estilado general */
+body{
+    margin: 0px;
+    background-color: #AC7D88;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    padding-bottom: 150px;
+    min-height: 100vh;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+h1{
+    font-size: 60px;
+    color: #F8ECD1;
+    text-shadow: 0px 0px 15px #85586F;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    text-decoration: underline;
+}
+
+h2{
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #F8ECD1;
+    text-shadow: 0px 0px 15px #85586F;
+    padding: 30px 5px;
+}
+
+
+/* Cambios del navbar de boostrap */
+.navbar, .dropdown-menu{
+    background: #F8ECD1;
+    animation: animate__backInDown;
+    animation-duration: 2s;
+}
+
+.navbar img{
+    height: 70px;
+}
+
+.nav-link, .dropdown-item{
+    transition: .3s;
+    text-transform: uppercase;
+    color: #85586F;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.active{
+    color: #F8ECD1 !important;
+    background-color: #85586F !important;
+    border-radius: 20px;
+}
+
+.nav-link:hover{
+    color: #FF7171;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0,0,0,0);
+    color: #FF7171;
+}
+
+
+/* Estilado pagina inicial */
+.inicio{
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 100%), url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.slider{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.carousel{
+    border: 5px solid #F8ECD1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #85586F;
+}
+
+.control-slider{
+    background-color: #000000;
+    border-radius: 16px;
+}
+
+
+/* Estilado de mi footer */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F8ECD1;
+    color: #85586F;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+
+footer img{
+    height: 40px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: #85586F;
+}
+
+footer div i{
+    padding: 10px;
+    transition: .3s;
+}
+
+footer div i:hover{
+    color: #FF7171;
+    border-radius: 10px;
+}

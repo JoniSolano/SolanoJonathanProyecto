@@ -20,7 +20,119 @@
     <link rel="shortcut icon" href="img/logotitulo.ico">
     <title>Foods JS</title>
 </head>
-<body>
+
+<body class="inicio">
+    <nav class="navbar navbar-expand-md py-0 px-3 animate__animated animate__fadeInDown">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Recetas</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="pages/recetas-saladas.html">Recetas saladas</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="pages/recetas-dulces.html">Recetas Dulces</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </li>    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Bienvenidos a JSFoods</h1>
+        <h2>Algunas recetas</h2>
+        <section class="slider">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                        <a href="pages/risotto-remolacha.html">
+                            <img src="img/cheesecake.jpg" class="d-block w-100" alt="...">
+                        </a>
+                        <div class="carousel-caption d-none d-sm-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="img/risotto-remolacha.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="img/key-lime-pie.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="img/pollo-al-curry.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <img src="img/carrot-cake.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-sm-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon control-slider" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon control-slider" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="animate__animated animate__fadeInUp">
+        <span>(C) 2022 - JS FOODS ALL RIGHTS RESERVED.</span>
+        <img src="../img/logo-icono.png" alt="">
+        <div>
+            <a href="https://www.twitter.com/" target="_blank">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <i class="bi bi-tiktok"></i>
+            </a>
+        </div>
+    </footer>
     
 
     <!-- Link JS boostrap -->
