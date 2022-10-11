@@ -294,3 +294,44 @@ footer div i:hover{
     color: #FF7171;
     border-radius: 10px;
 }
+
+
+/* Insertamos media queries para hacer la pag responsive */
+@media(max-width: 768px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+
+    .sobremi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner-formulario{
+        grid-template-areas: 
+        "caja1"
+        "caja2"
+        "caja3"
+        ;
+        padding-bottom: 70px;
+    }
+    .datos ul{
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .risotto-remolacha{
+        font-size: 16px;
+    }
+    #foto-risotto{
+        width: 350px;
+    }
+}
