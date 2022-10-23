@@ -1,5 +1,20 @@
 // Grid de pag sobre nosotros
-
+.sobremi{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "retrato info"
+    ;
+    .titulo{
+        grid-area: titulo;
+    }
+    .retrato{
+        grid-area: retrato;
+    }
+    .info{
+        grid-area: info;
+    }
+}
 
 // Grid de pag contacto
 .conteiner-formulario{
