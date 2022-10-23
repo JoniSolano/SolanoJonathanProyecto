@@ -1,0 +1,22 @@
+.conteiner-formulario{
+    .datos{
+        ul{
+            list-style-type: none;
+            text-align: right;
+    
+            li{
+                padding: 5px 0px;
+    
+                a{
+                    color: $color4;
+                    text-decoration: none;
+                    margin-bottom: 5px;
+    
+                    i{
+                        margin-left: 10px;
+                    }
+                }
+            }  
+        }
+    }
+}

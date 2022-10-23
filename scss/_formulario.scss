@@ -1,0 +1,40 @@
+.conteiner-formulario{
+
+    .formulario{
+        form{
+
+            .campo, textarea{
+                width: 100%;
+                padding: 15px 10px;
+                font-size: $font-size+5;
+                border: $border;
+                margin-bottom: 10px;
+                border-radius: $border-radius/2;
+                outline: 0px;
+            }
+
+            textarea{
+                height: 160px;
+            }
+
+            .btn-enviar{
+                padding: 10px;
+                font-size: 18px;
+                font-weight: bold;
+                border: none;
+                outline: 0;
+                background-color: #F8ECD1;
+                color: #85586F;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 300ms ease;
+                border-radius: 24px;
+            }
+
+            .btn-enviar:hover{
+                background-color: #85586F;
+                color: #F8ECD1;
+            }
+        }
+    } 
+}

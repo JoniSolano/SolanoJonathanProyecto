@@ -1,0 +1,19 @@
+.inicio{
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 100%), url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    .slider{
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .carousel{
+        border: 5px solid $color4;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+    }
+}

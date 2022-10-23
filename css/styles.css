@@ -8,33 +8,25 @@ body {
   body main {
     margin: auto;
     width: 90%;
-    max-width: 900px; }
-  body h1 {
-    font-size: 60px;
+    max-width: 900px;
     color: #F8ECD1;
-    text-shadow: 0px 0px 15px #85586F;
-    text-align: center;
-    padding: 40px 0 20px 0;
-    text-decoration: underline; }
-  body h2 {
-    padding: 20px 10px;
-    text-align: center;
-    font-size: 40px;
-    color: #F8ECD1;
-    text-shadow: 0px 0px 15px #85586F;
-    padding: 30px 5px; }
+    font-size: 20px; }
 
-.inicio {
-  min-height: 100vh;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/fondo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative; }
+.titulos, h1, h2 {
+  color: #F8ECD1;
+  text-align: center;
+  text-shadow: 0px 0px 15px #85586F;
+  padding: 30px 0; }
+
+h1 {
+  font-size: 60px;
+  text-decoration: underline; }
+
+h2 {
+  font-size: 40px; }
 
 .navbar, .dropdown-menu {
-  background-color: #F8ECD1;
-  animation: animate__backInDown; }
+  background-color: #F8ECD1; }
   .navbar img, .dropdown-menu img {
     height: 70px; }
   .navbar .nav-link, .navbar .dropdown-item, .dropdown-menu .nav-link, .dropdown-menu .dropdown-item {
@@ -48,8 +40,74 @@ body {
       background-color: rgba(0, 0, 0, 0); }
   .navbar .active, .dropdown-menu .active {
     color: #F8ECD1 !important;
-    background-color: #85586F;
+    background-color: #85586F !important;
     border-radius: 20px; }
+
+.inicio {
+  min-height: 100vh;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+  .inicio .slider {
+    text-align: center;
+    padding-bottom: 100px; }
+  .inicio .carousel {
+    border: 5px solid #F8ECD1;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px 0 #85586F; }
+
+.conteiner-formulario {
+  display: grid;
+  grid-template-areas: "caja1 caja1 caja1" "caja2 caja2 caja3" "caja2 caja2 caja3"; }
+  .conteiner-formulario .contactame {
+    grid-area: caja1; }
+  .conteiner-formulario .formulario {
+    grid-area: caja2; }
+  .conteiner-formulario .datos {
+    grid-area: caja3; }
+
+.conteiner-formulario .formulario form .campo, .conteiner-formulario .formulario form textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 2px solid #85586F;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: 0px; }
+
+.conteiner-formulario .formulario form textarea {
+  height: 160px; }
+
+.conteiner-formulario .formulario form .btn-enviar {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  outline: 0;
+  background-color: #F8ECD1;
+  color: #85586F;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  border-radius: 24px; }
+
+.conteiner-formulario .formulario form .btn-enviar:hover {
+  background-color: #85586F;
+  color: #F8ECD1; }
+
+.conteiner-formulario .datos ul {
+  list-style-type: none;
+  text-align: right; }
+  .conteiner-formulario .datos ul li {
+    padding: 5px 0px; }
+    .conteiner-formulario .datos ul li a {
+      color: #F8ECD1;
+      text-decoration: none;
+      margin-bottom: 5px; }
+      .conteiner-formulario .datos ul li a i {
+        margin-left: 10px; }
 
 footer {
   position: absolute;
@@ -65,3 +123,11 @@ footer {
   align-items: center; }
   footer img {
     height: 40px; }
+  footer a {
+    text-decoration: none;
+    color: #85586F; }
+  footer i {
+    padding: 0 10px;
+    transition: .3s; }
+  footer i:hover {
+    color: #FF7171; }

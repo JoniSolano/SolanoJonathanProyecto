@@ -1,9 +1,5 @@
-@import "variables";
-@import "generales";
-
 .navbar, .dropdown-menu{
     background-color: $color4;
-    animation: $animacion1;
 
     img{
         height: 70px;
@@ -24,7 +20,7 @@
 
     .active{
         color: $color4 !important;
-        background-color: $color1;
-        border-radius: 20px;
+        background-color: $color1 !important;
+        border-radius: $border-radius*2;
     }
 }
