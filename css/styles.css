@@ -1,2 +1,67 @@
-div {
-  background-color: aqua; }
+body {
+  margin: 0px;
+  background-color: #AC7D88;
+  font-family: "Dosis", sans-serif;
+  position: relative;
+  padding-bottom: 150px;
+  min-height: 100vh; }
+  body main {
+    margin: auto;
+    width: 90%;
+    max-width: 900px; }
+  body h1 {
+    font-size: 60px;
+    color: #F8ECD1;
+    text-shadow: 0px 0px 15px #85586F;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    text-decoration: underline; }
+  body h2 {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #F8ECD1;
+    text-shadow: 0px 0px 15px #85586F;
+    padding: 30px 5px; }
+
+.inicio {
+  min-height: 100vh;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+
+.navbar, .dropdown-menu {
+  background-color: #F8ECD1;
+  animation: animate__backInDown; }
+  .navbar img, .dropdown-menu img {
+    height: 70px; }
+  .navbar .nav-link, .navbar .dropdown-item, .dropdown-menu .nav-link, .dropdown-menu .dropdown-item {
+    transition: .3s;
+    text-transform: uppercase;
+    color: #85586F;
+    font-weight: bold;
+    padding-left: 15px; }
+    .navbar .nav-link:hover, .navbar .dropdown-item:hover, .dropdown-menu .nav-link:hover, .dropdown-menu .dropdown-item:hover {
+      color: #FF7171;
+      background-color: rgba(0, 0, 0, 0); }
+  .navbar .active, .dropdown-menu .active {
+    color: #F8ECD1 !important;
+    background-color: #85586F;
+    border-radius: 20px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #F8ECD1;
+  color: #85586F;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center; }
+  footer img {
+    height: 40px; }

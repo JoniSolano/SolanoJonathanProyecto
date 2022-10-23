@@ -1,0 +1,30 @@
+@import "variables";
+@import "generales";
+
+.navbar, .dropdown-menu{
+    background-color: $color4;
+    animation: $animacion1;
+
+    img{
+        height: 70px;
+    }
+
+    .nav-link, .dropdown-item{
+        transition: .3s;
+        text-transform: uppercase;
+        color: $color1;
+        font-weight: bold;
+        padding-left: 15px;
+
+        &:hover{
+            color: $color5;
+            background-color: rgba(0,0,0,0);
+        }
+    }
+
+    .active{
+        color: $color4 !important;
+        background-color: $color1;
+        border-radius: 20px;
+    }
+}
