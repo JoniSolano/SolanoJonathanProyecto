@@ -1,0 +1,34 @@
+.carta{
+    box-shadow: $box-shadow;
+    width: 250px;
+    margin: 15px 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: $font-size*2;
+    font-weight: bold;
+    border-radius: $border-radius/2;
+    background-color: $color4;
+    color: black ;
+
+    img{
+        border-radius: $border-radius/2;
+        object-fit: cover;
+        width: 100%;
+        height: 350px;
+        margin-bottom: 0;
+    }
+
+    button{
+        font-size: $font-size+4;
+        font-weight: bold;
+        padding: 5px 5px;
+        border-radius: $border-radius*2;
+        border: $border;
+        background-color: $color1;
+        color: $color4;
+    }
+
+    button:hover{
+        background-color: $color2;
+    }
+}
