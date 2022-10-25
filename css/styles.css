@@ -192,3 +192,31 @@ footer {
     transition: .3s; }
   footer i:hover {
     color: #FF7171; }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px; }
+  h2 {
+    font-size: 30px; }
+  .sobremi {
+    grid-template-areas: "titulo" "retrato" "info"; }
+    .sobremi img {
+      margin: auto; }
+    .sobremi .info {
+      text-align: center; }
+      .sobremi .info h2 {
+        text-align: center; }
+  .conteiner-formulario {
+    padding-bottom: 70px;
+    grid-template-areas: "caja1" "caja2" "caja3"; }
+    .conteiner-formulario .datos ul {
+      padding-top: 50px;
+      text-align: center; }
+  .risotto-remolacha {
+    font-size: 15px; }
+    .risotto-remolacha #foto-risotto {
+      width: 350px; }
+  footer {
+    flex-direction: column; }
+    footer img {
+      margin: 15px 5px; } }

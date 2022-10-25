@@ -1,0 +1,59 @@
+@media(max-width: 768px){
+    h1{
+        font-size: $font-size*4;
+    }
+    h2{
+        font-size: $font-size*3;
+    }
+
+    .sobremi{
+        grid-template-areas: 
+        "titulo"
+        "retrato"
+        "info"
+        ;
+        img{
+            margin: auto;
+        }
+        
+        .info{
+            text-align: center;
+            
+            h2{
+                text-align: center;
+            }
+        }
+    }
+
+    .conteiner-formulario{
+        padding-bottom: 70px;
+        grid-template-areas: 
+        "caja1"
+        "caja2"
+        "caja3"
+        ;
+        
+        .datos{
+            ul{
+                padding-top: 50px;
+                text-align: center; 
+            }
+        }
+    }
+
+    .risotto-remolacha{
+        font-size: $font-size+5;
+
+        #foto-risotto{
+            width: 350px;
+        }
+    }
+
+    footer{
+        flex-direction: column;
+        
+        img{
+            margin: 15px 5px;
+        }
+    }
+}
