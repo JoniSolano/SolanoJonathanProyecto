@@ -5,13 +5,8 @@
         form{
 
             .campo, textarea{
-                width: 100%;
-                padding: 15px 10px;
-                font-size: $font-size+5;
-                border: $border;
-                margin-bottom: 10px;
-                border-radius: $border-radius/2;
-                outline: 0px;
+                @include box($font-size+5, bold, $border, $border-radius/2, #000000, $color4);
+                @include size(100%, auto, 0 0 10px, 15px 10px);
             }
 
             textarea{
@@ -19,17 +14,8 @@
             }
 
             .btn-enviar{
-                padding: 10px;
-                font-size: 18px;
-                font-weight: bold;
-                border: none;
-                outline: 0;
-                background-color: #F8ECD1;
-                color: #85586F;
-                border-radius: 5px;
-                cursor: pointer;
-                transition: all 300ms ease;
-                border-radius: 24px;
+                @include box($font-size*2, bold, none, $border-radius*3, $color1, $color4);
+                @include size(150px, auto, 0, 10px)
             }
 
             .btn-enviar:hover{

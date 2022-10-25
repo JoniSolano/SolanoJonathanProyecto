@@ -1,15 +1,11 @@
 footer{
     position: absolute;
     bottom: 0;
-    width: 100%;
-    background-color: $color4;
-    color: $color1;
     display: flex;
     justify-content: space-between;
-    padding: 5px 40px;
-    font-size: $font-size*2;
-    font-weight: bold;
     align-items: center;
+    @include box($font-size*2, bold, none, 0, $color1, $color4);
+    @include size (100%, auto, 0, 5px 40px);
 
     img{
         height: 40px;
